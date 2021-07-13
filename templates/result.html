@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Detection Web app</title>
+</head>
+<body>
+<h1>These are the expected results</h1>
+<h2>Predictions</h2>
+{% for r,p in res %}
+	{{r}} {{p}}%<br/>
+{% endfor %}
+</body>
+</html>
